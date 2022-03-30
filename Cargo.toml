@@ -2,7 +2,9 @@
 name = "ICN-Torrent-Proxy"
 version = "0.1.0"
 edition = "2021"
+authors = ["Okazaki Kohei <okazaki@net.info.hiroshima-cu.ac.jp>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+parse_torrent = "0.5.2"

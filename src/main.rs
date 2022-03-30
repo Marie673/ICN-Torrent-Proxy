@@ -1,3 +1,7 @@
+mod bittorrent;
+use bittorrent::block;
+
 fn main() {
-    println!("Hello, world!");
+    bittorrent::ping();
+    block::echo();
 }
