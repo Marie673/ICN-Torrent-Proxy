@@ -8,3 +8,4 @@ authors = ["Okazaki Kohei <okazaki@net.info.hiroshima-cu.ac.jp>"]
 
 [dependencies]
 parse_torrent = { git = "https://github.com/Marie673/parse-torrent.git" }
+reqwest = { version = "0.11.10", features = ["json"] }
