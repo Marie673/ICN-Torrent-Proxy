@@ -1,3 +1,5 @@
+extern crate parse_torrent;
+
 use parse_torrent::Torrent;
 
 fn main() {
