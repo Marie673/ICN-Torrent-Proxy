@@ -7,5 +7,6 @@ authors = ["Okazaki Kohei <okazaki@net.info.hiroshima-cu.ac.jp>"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tokio = "1.17.0"
 parse_torrent = { git = "https://github.com/Marie673/parse-torrent.git" }
 reqwest = { version = "0.11.10", features = ["json"] }
